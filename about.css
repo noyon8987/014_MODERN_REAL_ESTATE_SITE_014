@@ -1,0 +1,361 @@
+/* Custom Font Starts Here */
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url(./font/satoshi-light.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url(./font/satoshi-regular.ttf) format("truetype");
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url(./font/satoshi-medium.ttf) format("truetype");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url(./font/satoshi-bold.ttf) format("truetype");
+  font-weight: bold;
+}
+/* Custom Font Ends Here */
+
+/* Reset Code Starts Here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Satoshi-Light";
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+}
+
+.btn {
+  padding: 0.8vh 1vw;
+  font-size: 1.1vw;
+  font-family: "Satoshi-Regular";
+  font-weight: bold;
+  letter-spacing: 0.1vw;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+}
+/* Reset Code Ends Here */
+
+/* Hero Section Starts Here  */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 1.8vw;
+  font-family: "Satoshi-Bold";
+}
+
+.hero_section {
+  width: 100%;
+  height: 10vh;
+  padding: 1.3vw 5vw;
+  position: relative;
+}
+
+.header_section {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_list a {
+  text-decoration: none;
+}
+
+.nav_link {
+  color: black;
+  list-style: none;
+  margin: 0.6vw 0.9vw;
+  font-family: "Satoshi-Regular";
+  font-weight: regular;
+  font-size: 1.1vw;
+  position: relative;
+}
+
+.nav_link:hover {
+  cursor: pointer;
+}
+
+.nav_link::after {
+  content: "";
+  border-bottom: 2px solid black;
+  width: 0%;
+  position: absolute;
+  bottom: -0.2vw;
+  left: 0;
+  border-radius: 50%;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+
+.nav_link:hover::after {
+  width: 100%;
+}
+
+.header_btn {
+  padding: 0.5vw 1vw;
+  font-size: 1.1vw;
+  font-family: "Satoshi-Regular";
+  font-weight: bold;
+  letter-spacing: 0.1vw;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: black;
+}
+
+.header_btn::after {
+  content: "";
+  height: 100%;
+  width: 0%;
+  background-color: #3498db;
+  position: absolute;
+  left: 0;
+  top: 0%;
+  border-radius: 10px;
+  transition: all linear 0.3s;
+  z-index: 1;
+}
+
+.header_btn:hover::after {
+  width: 100%;
+  display: flex;
+}
+
+.header_btn h4 a {
+  color: white;
+  text-decoration: none;
+}
+
+.header_btn:hover a {
+  color: white;
+  position: relative;
+  z-index: 999;
+}
+
+.header_btn h4:hover a {
+  color: white;
+  position: relative;
+  z-index: 999;
+}
+
+.about-section {
+  width: 100%;
+  height: auto;
+  font-family: "Satoshi-Light";
+}
+
+.about-hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 3vw 5vw;
+}
+
+.about-hero-section h1 {
+  width: 53%;
+  font-size: 4.5vw;
+}
+
+.about-hero-section p {
+  width: 47%;
+  font-size: 1.4vw;
+  margin-left: 2vw;
+  color: #70707b;
+  line-height: 1.4;
+}
+
+.hero-first-image-section img {
+  width: 100%;
+  padding: 0 5vw;
+}
+
+.count-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw 6vw 4vw;
+}
+
+.child-count-sub-section h2 {
+  font-size: 4.5vw;
+}
+
+.child-count-sub-section p {
+  font-size: 2.8vw;
+  color: #70707b;
+  font-weight: bold;
+}
+
+.child-count-sub-section {
+  display: flex;
+  justify-content: center;
+}
+
+.child-count-section > p {
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #707070;
+}
+
+.property-development-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2vw 5vw 5vw;
+  position: relative;
+}
+
+.property-development-text-section {
+  width: 48%;
+  margin-right: 3.5vw;
+}
+
+.property-development-text-section h1 {
+  font-size: 3.7vw;
+}
+
+.property-development-text-section p {
+  font-size: 1.3vw;
+  line-height: 1.59;
+  color: #70707B;
+  padding-top: 2vw;
+}
+
+.property-development-img-section {
+  width: 52%;
+}
+
+.property-development-img-section img {
+  width: 45vw;
+}
+
+.about-bank-section {
+  padding: 5vw;
+  text-align: center;
+}
+
+.about-bank-section h1 {
+  font-size: 3vw;
+  margin-bottom: 3vw;
+}
+
+.about-bank-section img {
+  width: 88vw;
+}
+
+.client-section {
+  background-color: #FCFCFC;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+
+.client-text-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vw;
+  border-bottom: 1px solid #e3e3e7;
+}
+
+.client-text-section h1 {
+width: 54%;
+text-align: left;
+font-size: 3.8vw;
+margin-top: 2vw;
+}
+
+.client-text-section p {
+  width: 46%;
+  text-align: left;
+  font-size: 1.3vw;
+  line-height: 1.5;
+  color: #70707B;
+  font-family: "Satoshi-Regular";
+}
+
+.client-image-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.client-image-left-section {
+  width: 54%;
+  text-align: left;
+  padding-right: 3vw;
+}
+
+.client-image-left-section img {
+  width: 3.5vw;
+}
+
+.client-image-left-section h1 {
+  font-size: 3.3vw;
+  font-weight: bold;
+  padding: 2vw 0 0;
+}
+
+.client-image-left-section p {
+  font-size: 2.2vw;
+  font-family: "Satoshi-Regular";
+  line-height: 1.6;
+  color: #70707B;
+  margin-bottom: 3vw;
+}
+
+.client-image-right-section {
+  width: 46%;
+}
+
+.client-image-right-section img {
+  width: 100%;
+}
+
+.black-border {
+  display: inline-block;
+  height: 0.6vw;
+  width: 5.5vw;
+  margin-left: 0.7vw;
+  border-radius: 50px;
+  background-color: #000000;
+}
+
+.border {
+  display: inline-block;
+  height: 0.6vw;
+  width: 5.5vw;
+  margin-left: 0.7vw;
+  border-radius: 50px;
+  background-color: #8d8d94;
+}

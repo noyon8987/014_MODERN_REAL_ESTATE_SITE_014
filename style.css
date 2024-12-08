@@ -40,14 +40,13 @@ body {
 }
 
 .btn {
-  padding: 0.8vw 1vw;
+  padding: 0.8vh 1vw;
   font-size: 1.1vw;
   font-family: "Satoshi-Regular";
   font-weight: bold;
   letter-spacing: 0.1vw;
   border-radius: 10px;
   border: none;
-  outline: none;
   position: relative;
 }
 /* Reset Code Ends Here */
@@ -76,6 +75,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.nav_list a {
+  text-decoration: none;
 }
 
 .nav_link {
@@ -211,6 +214,7 @@ body {
   position: absolute;
   right: 4vw;
   top: 78vh;
+  z-index: 9999;
 }
 
 .hero_image_gallery img {
@@ -760,3 +764,22 @@ body {
     margin-left: 1vw;
 }
 /* Footer Section Ends Here */
+
+
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+*/
+
+@media (max-width: 600px) {
+}
+
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  */
+
+  @media (max-width: 768px) {
+  }
