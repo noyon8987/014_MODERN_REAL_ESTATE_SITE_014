@@ -547,217 +547,219 @@ body {
 }
 
 .blog_scroll_page {
-    width: 111.3%;
-    margin-left: -5vw;
-    height: 30vh;
-    background-color: white;
-    position: relative;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
+  width: 111.3%;
+  margin-left: -5vw;
+  height: 30vh;
+  background-color: white;
+  position: relative;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
 }
 
 .dot_icon {
-    padding: 3vw 5vw;
+  padding: 3vw 5vw;
 }
 
 .arrow_icon {
-    padding: 3vw 5vw;
-    font-size: 2.5vw;
+  padding: 3vw 5vw;
+  font-size: 2.5vw;
 }
 
 /* Blog Section Ends Here  */
 
 /* Contact Section Starts Here  */
 .contact_section {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .contact_img img {
-    width: 100%;
-    z-index: 1;
-    margin-top: -18vw;
+  width: 100%;
+  z-index: 1;
+  margin-top: -18vw;
 }
 
 .contact_img {
-    position: relative;
+  position: relative;
 }
 
 .contact_img_overlay {
-    position: absolute;
-    width: 100%;
-    height: 119vh;
-    opacity: 0.5;
-    margin-top: -5vw;
-    background-color: black;
-    top: 0;
-    left: 0;
+  position: absolute;
+  width: 100%;
+  height: 119vh;
+  opacity: 0.5;
+  margin-top: -5vw;
+  background-color: black;
+  top: 0;
+  left: 0;
 }
 
 .contact_input_section {
-    font-family: "Satoshi-Regular";
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  font-family: "Satoshi-Regular";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact_text_section {
-    position: absolute;
-    top: 9vw;
-    left: 5vw;
-    width: 47%;
-    color: white;
+  position: absolute;
+  top: 9vw;
+  left: 5vw;
+  width: 47%;
+  color: white;
 }
 
 .contact_text_section h1 {
-    font-size: 4.5vw;
+  font-size: 4.5vw;
 }
 
 .contact_text_section p {
-    font-size: 1.5vw;
-    color: rgb(218, 215, 215);
-    line-height: 1.7;
-    margin-top: 3vw;
+  font-size: 1.5vw;
+  color: rgb(218, 215, 215);
+  line-height: 1.7;
+  margin-top: 3vw;
 }
 
 .contact_input_field {
-    position: absolute;
-    top: 0;
-    right: 5vw;
-    color: rgb(0, 0, 0);
-    background-color: white;
-    width: 30vw;
-    height: 70vh;
-    border-radius: 20px;
-    margin-top: 5vw;
+  position: absolute;
+  top: 0;
+  right: 5vw;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  width: 30vw;
+  height: 70vh;
+  border-radius: 20px;
+  margin-top: 5vw;
 }
 
 .contact_input_field label {
-    font-size: 1.2vw;
+  font-size: 1.2vw;
 }
+
 .contact_input_field input {
-    width: 26vw;
-    height: 2.4vw;
-    margin-bottom: 1vw;
-    border: none;
-    outline: none;
-    padding: 0.5vw;
-    border: 1px solid rgb(194, 192, 192);
-    border-radius: 5px;
-    font-size: 1.3vw;
+  width: 26vw;
+  height: 2.4vw;
+  margin-bottom: 1vw;
+  border: none;
+  outline: none;
+  padding: 0.5vw;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 5px;
+  font-size: 1.3vw;
 }
+
 .contact_input_field textarea {
-    width: 26vw;
-    height: 10vw;
-    border: none;
-    outline: none;
-    border: 1px solid rgb(194, 192, 192);
-    border-radius: 5px;
-    padding: 0.5vw;
-    font-size: 1.3vw;
+  width: 26vw;
+  height: 10vw;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 5px;
+  padding: 0.5vw;
+  font-size: 1.3vw;
 }
 
 .contact_child {
-    padding: 2vw;
+  padding: 2vw;
 }
 
 ::placeholder {
-    font-size: 1.1vw;
+  font-size: 1.1vw;
 }
 
 .contact_btn {
-    width: 26vw;
-    background-color: black;
-    color: white;
-    font-size: 1.1vw;
-    margin-top: 1vw;
+  width: 26vw;
+  background-color: black;
+  color: white;
+  font-size: 1.1vw;
+  margin-top: 1vw;
 }
 /* Contact Section Ends Here  */
 
 /* Footer Section Starts Here */
 .footer_section {
-    height: 85vh;
-    width: 100%;
-    background-color: #18181B;
-    color: #ffffff;
-    font-family: "Satoshi-Light";
-    font-weight: normal;
+  height: 85vh;
+  width: 100%;
+  background-color: #18181b;
+  color: #ffffff;
+  font-family: "Satoshi-Light";
+  font-weight: normal;
 }
 
 .footer_top_section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5vw 5vw 7vw;
-    position: relative;
-    border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5vw 5vw 7vw;
+  position: relative;
+  border-bottom: 1px solid gray;
 }
 
 .footer_left {
-    width: 55%;
+  width: 55%;
 }
 
 .footer_left h2 {
-    font-size: 2.2vw;
-    letter-spacing: 0.1vw;
-    line-height: 1.5;
+  font-size: 2.2vw;
+  letter-spacing: 0.1vw;
+  line-height: 1.5;
 }
 
 .footer_left p {
-    font-size: 1.2vw;
+  font-size: 1.2vw;
 }
 
 .footer_address {
-    display: flex;
-    margin-left: -1vw;
-    margin-top: 3vw;
+  display: flex;
+  margin-left: -1vw;
+  margin-top: 3vw;
 }
 
 .address {
-    margin: 1vw;
+  margin: 1vw;
 }
 
 .address p:nth-child(1) {
-    margin-bottom: 0.5vw;
-    font-size: 1.2vw;
-    color: #a3a3a8;
+  margin-bottom: 0.5vw;
+  font-size: 1.2vw;
+  color: #a3a3a8;
 }
 
 .address p:nth-child(2) {
-    font-size: 1.2vw;
-    color: #d2d2d4;
+  font-size: 1.2vw;
+  color: #d2d2d4;
 }
 
 .footer_right {
-    display: flex;
-    position: absolute;
-    right: 5vw;
+  display: flex;
+  position: absolute;
+  right: 5vw;
 }
 
 .footer_link {
-    display: flex;
-    flex-direction: column;
-    margin: 2vw;
-    margin-top: 8vw;
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+  margin-top: 8vw;
 }
 
 .footer_link a {
-    text-decoration: none;
-    color: white;
-    margin-bottom: 1.5vw;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 1.5vw;
 }
 
 .footer_link a:nth-child(1) {
-    font-size: 1.2vw;
-    color: #a3a3a8;
+  font-size: 1.2vw;
+  color: #a3a3a8;
 }
 
 .footer_bottom_section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2vw 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw 5vw;
 }
 
 .footer_bottom_section a {
@@ -766,25 +768,6 @@ body {
 }
 
 .footer_bottom_section i {
-    margin-left: 1vw;
+  margin-left: 1vw;
 }
 /* Footer Section Ends Here */
-
-
-
-
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-*/
-
-@media (max-width: 600px) {
-}
-
-
-
-/* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  */
-
-  @media (max-width: 768px) {
-  }

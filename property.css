@@ -22,6 +22,7 @@
   src: url(./font/satoshi-bold.ttf) format("truetype");
   font-weight: bold;
 }
+
 /* Custom Font Ends Here */
 
 /* Reset Code Starts Here */
@@ -49,6 +50,7 @@ body {
   border: none;
   position: relative;
 }
+
 /* Reset Code Ends Here */
 
 /* Hero Section Starts Here  */
@@ -164,7 +166,9 @@ body {
   position: relative;
   z-index: 999;
 }
+/* Hero Section Ends Here */
 
+/* Property Section Starts Here */
 .property-section {
   width: 100%;
   height: auto;
@@ -313,7 +317,9 @@ body {
   height: 1.3vw;
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   position: absolute;
   top: -0.7vw;
   left: 3vw;
@@ -325,7 +331,9 @@ body {
   height: 1.3vw;
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   position: absolute;
   top: -0.7vw;
   right: 10.5vw;
@@ -336,7 +344,7 @@ body {
   position: relative;
 }
 
-.price p{
+.price p {
   font-size: 1.3vw;
 }
 
@@ -345,8 +353,9 @@ body {
   right: 5vw;
   top: -0.5vw;
 }
+/* Property Section Ends Here */
 
-/* Property list img Section Starts Here  */
+/* Property list Section Starts Here  */
 .property-image-section {
   width: 65%;
   position: relative;
@@ -457,6 +466,7 @@ body {
   margin: 3vw 0;
   padding: 1vw 2vw;
 }
+/* Property list Section Ends Here  */
 
 .white-div {
   width: 100%;
@@ -466,9 +476,6 @@ body {
   z-index: 444;
   margin-top: -40vh;
 }
-
-/* Property list Section Ends Here  */
-
 
 /* Contact Section Starts Here  */
 .contact_section {
@@ -538,6 +545,7 @@ body {
 .contact_input_field label {
   font-size: 1.2vw;
 }
+
 .contact_input_field input {
   width: 26vw;
   height: 2.4vw;
@@ -549,6 +557,7 @@ body {
   border-radius: 5px;
   font-size: 1.3vw;
 }
+
 .contact_input_field textarea {
   width: 26vw;
   height: 10vw;

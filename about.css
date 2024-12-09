@@ -197,6 +197,7 @@ body {
   padding: 0 5vw;
 }
 
+/* Count Section Starts Here  */
 .count-section {
   display: flex;
   justify-content: space-between;
@@ -224,7 +225,9 @@ body {
   font-weight: bold;
   color: #707070;
 }
+/* Count Section Ends Here  */
 
+/* Property Section Starts Here  */
 .property-development-section {
   display: flex;
   justify-content: space-between;
@@ -246,7 +249,7 @@ body {
 .property-development-text-section p {
   font-size: 1.3vw;
   line-height: 1.59;
-  color: #70707B;
+  color: #70707b;
   padding-top: 2vw;
 }
 
@@ -257,7 +260,9 @@ body {
 .property-development-img-section img {
   width: 45vw;
 }
+/* Property Section Ends Here  */
 
+/* About Section Starts Here  */
 .about-bank-section {
   padding: 5vw;
   text-align: center;
@@ -271,9 +276,11 @@ body {
 .about-bank-section img {
   width: 88vw;
 }
+/* About Section Ends Here  */
 
+/* Client Section Starts Here  */
 .client-section {
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   display: flex;
   flex-direction: column;
   margin-top: 20vh;
@@ -288,10 +295,10 @@ body {
 }
 
 .client-text-section h1 {
-width: 54%;
-text-align: left;
-font-size: 3.8vw;
-margin-top: 2vw;
+  width: 54%;
+  text-align: left;
+  font-size: 3.8vw;
+  margin-top: 2vw;
 }
 
 .client-text-section p {
@@ -299,7 +306,7 @@ margin-top: 2vw;
   text-align: left;
   font-size: 1.3vw;
   line-height: 1.5;
-  color: #70707B;
+  color: #70707b;
   font-family: "Satoshi-Regular";
 }
 
@@ -330,7 +337,7 @@ margin-top: 2vw;
   font-size: 2.2vw;
   font-family: "Satoshi-Regular";
   line-height: 1.6;
-  color: #70707B;
+  color: #70707b;
   margin-bottom: 3vw;
 }
 
@@ -359,3 +366,4 @@ margin-top: 2vw;
   border-radius: 50px;
   background-color: #8d8d94;
 }
+/* Client Section Ends Here  */

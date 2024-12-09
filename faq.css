@@ -164,8 +164,9 @@ body {
   position: relative;
   z-index: 999;
 }
+/* Hero Section Ends Here */
 
-
+/* FAQs Section Starts Here */
 .faq-section {
   width: 100%;
   padding: 5vw;
@@ -178,17 +179,17 @@ body {
 }
 
 .faq-hero-section h1 {
- font-size: 3vw;
- margin-bottom: 3vh;
+  font-size: 3vw;
+  margin-bottom: 3vh;
 }
 
 .faq-hero-section p {
   font-size: 1.2vw;
-  color: #70707B;
+  color: #70707b;
   line-height: 1.5;
- }
+}
 
- .input-section {
+.input-section {
   position: relative;
 }
 
@@ -222,7 +223,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 3vh;
-  color: #70707B;
+  color: #70707b;
   font-size: 1.1vw;
   margin-bottom: 10vh;
 }
@@ -233,9 +234,8 @@ body {
   border: none;
   outline: none;
   border-radius: 5px;
-  color: #70707B;
+  color: #70707b;
 }
-
 
 .faq-category-section {
   display: flex;
@@ -249,7 +249,7 @@ body {
   margin-top: -17vh;
 }
 
-.faq-category-left-section{
+.faq-category-left-section {
   text-align: left;
 }
 
@@ -271,7 +271,7 @@ body {
 .faq-category-left-section ul li {
   list-style: none;
   font-size: 1.2vw;
-  color: #70707B;
+  color: #70707b;
   padding-bottom: 2vh;
   padding-left: 1.5vw;
 }
@@ -283,8 +283,9 @@ body {
 .faq_question_box p {
   text-align: left;
 }
+/* FAQs Section Starts Here */
 
-
+/* Subscribe Section Starts Here */
 .subscribe-section {
   position: relative;
   margin-bottom: 5vh;
@@ -340,11 +341,10 @@ body {
   margin: 10vh;
   padding: 1vw;
   font-size: 1.3vw;
-  color: #70707B;
+  color: #70707b;
 }
 
-.subscribe-text-section
-::placeholder {
+.subscribe-text-section ::placeholder {
   font-size: 1.3vw;
 }
 
@@ -358,4 +358,5 @@ body {
   padding: 1vw 2vw;
   margin-top: 5vh;
   margin-bottom: 5vh;
-} 
+}
+/* Subscribe Section Ends Here */

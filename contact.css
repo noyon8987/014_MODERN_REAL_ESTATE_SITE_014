@@ -22,6 +22,7 @@
   src: url(./font/satoshi-bold.ttf) format("truetype");
   font-weight: bold;
 }
+
 /* Custom Font Ends Here */
 
 /* Reset Code Starts Here */
@@ -49,6 +50,7 @@ body {
   border: none;
   position: relative;
 }
+
 /* Reset Code Ends Here */
 
 /* Hero Section Starts Here  */
@@ -164,7 +166,9 @@ body {
   position: relative;
   z-index: 999;
 }
+/* Hero Section Ends Here */
 
+/* Contact Section Starts Here */
 .contact-section {
   width: 100%;
 }
@@ -225,8 +229,7 @@ body {
   color: #70707b;
 }
 
-.contact-input-left-section
-::placeholder {
+.contact-input-left-section ::placeholder {
   font-size: 1.1vw;
 }
 
@@ -320,3 +323,4 @@ body {
   color: #70707b;
   font-size: 1.1vw;
 }
+/* Contact Section Ends Here */
