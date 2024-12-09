@@ -164,3 +164,159 @@ body {
   position: relative;
   z-index: 999;
 }
+
+.contact-section {
+  width: 100%;
+}
+
+.contact-hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 7vh 0 10vh;
+}
+
+.contact-hero-section h1 {
+  font-size: 3vw;
+}
+
+.contact-hero-section p {
+  font-size: 1.3vw;
+  color: #70707b;
+}
+
+.contact-input-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw 15vh;
+  width: 100%;
+  gap: 4vw;
+  margin-top: -10vh;
+}
+
+.contact-input-left-section {
+  width: 50%;
+  margin-top: 15vh;
+}
+
+.input-name-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-input-left-section label {
+  font-weight: bold;
+  font-size: 1.1vw;
+}
+
+.contact-input-left-section input {
+  width: 20vw;
+  height: 5vh;
+  margin: 0.3vh 0 3vh;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(202, 199, 199);
+  border-radius: 5px;
+  font-size: 1.1vw;
+  padding-left: 0.5vw;
+  color: #70707b;
+}
+
+.contact-input-left-section
+::placeholder {
+  font-size: 1.1vw;
+}
+
+.input-firstname-section {
+  margin-right: 2vw;
+}
+
+.input-email-section input {
+  width: 42.2vw;
+}
+
+.input-phone-section {
+  position: relative;
+  margin-top: -3vh;
+}
+
+.input-phone-section input {
+  width: 42.2vw;
+  padding-left: 3.2vw;
+}
+
+.input-phone-section select {
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 0.1vw;
+  top: 5vh;
+  color: #70707b;
+}
+
+.input-message-section {
+  margin-top: -3vh;
+}
+
+.input-message-section textarea {
+  width: 42.2vw;
+  height: 15vh;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(202, 199, 199);
+  border-radius: 5px;
+  font-size: 1.1vw;
+  padding: 0.5vw;
+  color: #70707b;
+}
+
+.input-check-box {
+  margin-top: -3vh;
+}
+
+.input-check-box input {
+  width: 1vw;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(228, 224, 224);
+  border-radius: 5px;
+}
+
+.input-check-box p {
+  margin-top: -7.4vh;
+  margin-left: 1.5vw;
+}
+
+.input-btn-section {
+  width: 42.2vw;
+  height: 7vh;
+  background-color: black;
+  color: white;
+}
+
+.contact-input-right-section {
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10vh 3vw;
+}
+
+.contact-input-right-section i {
+  font-size: 1.8vw;
+  margin-bottom: 2vh;
+  color: #70707b;
+}
+
+.contact-input-right-section p {
+  font-size: 1.2vw;
+  margin-bottom: 1.5vh;
+  font-weight: bold;
+}
+
+.contact-input-right-section p:nth-child(3) {
+  color: #70707b;
+  font-size: 1.1vw;
+}

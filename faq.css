@@ -164,3 +164,198 @@ body {
   position: relative;
   z-index: 999;
 }
+
+
+.faq-section {
+  width: 100%;
+  padding: 5vw;
+  text-align: center;
+}
+
+.faq-hero-section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.faq-hero-section h1 {
+ font-size: 3vw;
+ margin-bottom: 3vh;
+}
+
+.faq-hero-section p {
+  font-size: 1.2vw;
+  color: #70707B;
+  line-height: 1.5;
+ }
+
+ .input-section {
+  position: relative;
+}
+
+.faq-input {
+  margin-top: 3vh;
+  width: 35%;
+  height: 3vw;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid #cbcbce;
+  padding-left: 2.3vw;
+  font-size: 1.2vw;
+  color: #70707b;
+}
+
+::placeholder {
+  font-size: 1.2vw;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  left: 29.5vw;
+  top: 5.2vh;
+  color: #70707b;
+  font-size: 1.3vw;
+}
+
+.Popular-questuib-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+  color: #70707B;
+  font-size: 1.1vw;
+  margin-bottom: 10vh;
+}
+
+.Popular-questuib-section button {
+  padding: 0.8vh 0.8vw;
+  margin-left: 0.5vw;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #70707B;
+}
+
+
+.faq-category-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.faq-category-left-section {
+  width: 25%;
+  margin-top: -17vh;
+}
+
+.faq-category-left-section{
+  text-align: left;
+}
+
+.faq-category-left-section h3 {
+  font-size: 2vw;
+  font-family: "Satoshi-Light";
+  margin-bottom: 4vh;
+}
+
+.faq-category-left-section h4 {
+  font-family: "Satoshi-Light";
+  font-size: 1.2vw;
+  padding-bottom: 2vh;
+  padding-left: 1.5vw;
+  position: relative;
+  border-left: 2px solid black;
+}
+
+.faq-category-left-section ul li {
+  list-style: none;
+  font-size: 1.2vw;
+  color: #70707B;
+  padding-bottom: 2vh;
+  padding-left: 1.5vw;
+}
+
+.faq-category-right-section {
+  width: 75%;
+}
+
+.faq_question_box p {
+  text-align: left;
+}
+
+
+.subscribe-section {
+  position: relative;
+  margin-bottom: 5vh;
+}
+
+.subscribe-section img {
+  width: 100%;
+  height: 90vh;
+}
+
+.image-overlay {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 55;
+  width: 100%;
+  height: 90vh;
+  opacity: 0.4;
+}
+
+.subscribe-text-section {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-33%, -50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe-text-section h1 {
+  font-size: 4vw;
+  margin: 1vw 0 2vw;
+}
+
+.subscribe-text-section p {
+  font-size: 1.5vw;
+  line-height: 1.5;
+}
+
+.subscribe-text-section input {
+  width: 40vw;
+  height: 4.5vw;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  margin: 10vh;
+  padding: 1vw;
+  font-size: 1.3vw;
+  color: #70707B;
+}
+
+.subscribe-text-section
+::placeholder {
+  font-size: 1.3vw;
+}
+
+.subscribe-btn {
+  position: absolute;
+  top: 47vh;
+  right: 10vw;
+  z-index: 9999;
+  background-color: black;
+  color: white;
+  padding: 1vw 2vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+} 

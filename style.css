@@ -40,7 +40,7 @@ body {
 }
 
 .btn {
-  padding: 0.8vh 1vw;
+  padding: 1.5vh 1vw;
   font-size: 1.1vw;
   font-family: "Satoshi-Regular";
   font-weight: bold;
@@ -112,7 +112,7 @@ body {
 }
 
 .header_btn {
-  padding: 0.5vw 1vw;
+  padding: 1.5vh 1vw;
   font-size: 1.1vw;
   font-family: "Satoshi-Regular";
   font-weight: bold;
@@ -758,6 +758,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 2vw 5vw;
+}
+
+.footer_bottom_section a {
+  text-decoration: none;
+  color: white;
 }
 
 .footer_bottom_section i {

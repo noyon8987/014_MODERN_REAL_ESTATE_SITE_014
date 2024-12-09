@@ -1,4 +1,4 @@
-/* Custom Font Starts Here */
+/* Custom Font Starts Here
 @font-face {
   font-family: "Satoshi-Light";
   src: url(./font/satoshi-light.ttf) format("truetype");
@@ -164,3 +164,247 @@ body {
   position: relative;
   z-index: 999;
 }
+
+.blog-section {
+  width: 100%;
+  height: auto;
+  padding: 2vw 5vw;
+}
+
+.blog-hero-section {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-hero-section h1 {
+  width: 55%;
+  font-size: 4vw;
+  font-family: "Satoshi-Light";
+}
+
+.blog-hero-section p {
+  width: 45%;
+  font-size: 1.34vw;
+  color: #70707b;
+  line-height: 1.5;
+}
+
+.input-section {
+  position: relative;
+}
+
+.blog-input {
+  margin-top: 3vw;
+  width: 100%;
+  height: 4vw;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid #cbcbce;
+  padding-left: 3vw;
+  font-size: 1.3vw;
+  color: #70707b;
+}
+
+::placeholder {
+  font-size: 1.3vw;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  left: 1vw;
+  top: 4.3vw;
+  color: #70707b;
+  font-size: 1.6vw;
+}
+
+
+.blog-three-grid-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2.5vw;
+  margin-top: 10vh;
+  align-items: center;
+}
+
+.grid-section-one {
+  width: 28vw;
+}
+
+.grid-section-one img {
+  width: 28vw;
+}
+
+.grid-section-two{
+  width: 30vw;
+}
+
+.grid-section-two .blog_title {
+  font-size: 2.9vw;
+}
+
+.grid-section-two > p {
+  color: #70707B;
+  font-size: 1.2vw;
+  line-height: 1.7;
+  margin-top: 2vh;
+}
+
+.grid-section-three {
+  width: 25vw;
+}
+
+.grid-section-three-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
+}
+
+.grid-section-three-left img {
+  margin: 0.5vw 0;
+}
+
+.grid-section-three-right h4 {
+  font-size: 1.4vw;
+  line-height: 1.6;
+}
+
+.grid-section-three-right p {
+  font-size: 0.99vw;
+  color: #70707B;
+  margin: 0.6vw 0;
+}
+
+.grid-section-three-right i {
+  margin-right: 0.7vw;
+}
+
+.blog-list-heading{
+  width: 55%;
+}
+
+.blog-list-heading h1 {
+  font-size: 3.7vw;
+  font-family: "Satoshi-Light";
+  margin: 1vw 0 2vw;
+}
+
+.blog-list-heading p {
+  color: #70707B;
+  font-size: 1.3vw;
+}
+
+.blog_images {
+  gap: 2vw;
+}
+
+.blog_images i {
+  margin-right: 0.5vw;
+}
+
+.blog_images img {
+  width: 28vw;
+}
+
+.blog_images h3 {
+  font-size: 1.9vw;
+  margin-bottom: 0.8vw;
+}
+
+.blog_images p {
+  font-size: 1.2vw;
+  color: #70707B;
+}
+
+.blog-image {
+  margin: 1vw 0;
+}
+
+.view_btn {
+  background-color: black;
+  color: white;
+  padding: 0.8vw 1.5vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+
+.subscribe-section {
+  position: relative;
+  margin-bottom: 5vh;
+}
+
+.subscribe-section img {
+  width: 100%;
+  height: 90vh;
+}
+
+.image-overlay {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 55;
+  width: 100%;
+  height: 90vh;
+  opacity: 0.5;
+}
+
+.subscribe-text-section {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-33%, -50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe-text-section h1 {
+  font-size: 4vw;
+  margin: 1vw 0 2vw;
+}
+
+.subscribe-text-section p {
+  font-size: 1.5vw;
+  line-height: 1.5;
+}
+
+.subscribe-text-section input {
+  width: 40vw;
+  height: 4.5vw;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  margin: 10vh;
+  padding: 1vw;
+  font-size: 1.3vw;
+  color: #70707B;
+}
+
+.subscribe-text-section
+::placeholder {
+  font-size: 1.3vw;
+}
+
+.subscribe-btn {
+  position: absolute;
+  top: 47vh;
+  right: 10vw;
+  z-index: 9999;
+  background-color: black;
+  color: white;
+  padding: 1vw 2vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+} 
